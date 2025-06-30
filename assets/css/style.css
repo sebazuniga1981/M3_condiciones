@@ -5,7 +5,7 @@ body {
   background: white;
 }
 header {
-  background-color: #333;
+  background-color: #7e7878;
   padding: 15px 0;
 }
 
@@ -29,7 +29,7 @@ header {
 }
 
 .navbar a:hover {
-  color: #ffcc00;
+  color: #9018d6;
 }
 
 

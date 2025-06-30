@@ -1,6 +1,14 @@
+/* Body centrado*/
+body {
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+
+
 /* Estilo de la barra de navegación */
 header {
-  background-color: #333;
+  background-color: #7e7878;
   padding: 15px 0;
 }
 
@@ -24,18 +32,13 @@ header {
 }
 
 .navbar a:hover {
-  color: #ffcc00;
+  color: #9018d6;
 }
 
 
 
 
 
-body {
-  margin: 0;
-  padding: 0;
-  background: white;
-}
 h1 {
   display: flex;
   justify-content: center;
