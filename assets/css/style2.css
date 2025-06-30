@@ -1,0 +1,70 @@
+/* Estilo de la barra de navegación */
+header {
+  background-color: #333;
+  padding: 15px 0;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #ffcc00;
+}
+
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.grupo {
+  /*border: 2px solid #a9abb4;*/
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  gap: 30px;
+}
+.grupo > img {
+  width: 200px;
+  border: 2px solid #a9abb4;
+}
+#cantidad {
+  width: auto;
+}
+.estado {
+  text-align: center;
+}
+.estado > #verificar {
+  width: 100px;
+}
