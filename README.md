@@ -15,6 +15,7 @@ B. Si tiene borde, quitarle el borde con el click (1 punto)
 
 Explicacion:
 Se realiza la primera pagina WEB, con la imagen guardada en el "img", se ordena la web e imagen  con style.css, para que quede centrada, luego se empieza a trabajar con  "script.js" , para  que al clickear la imagen deje un borde rojo, al volver a cliquear , este vuelve a su estado original. 
+
 -------------------------------------------------------------------------------
 
 
