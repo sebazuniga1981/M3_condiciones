@@ -5,7 +5,6 @@ body {
   background: white;
 }
 
-
 /* Estilo de la barra de navegación */
 header {
   background-color: #7e7878;
@@ -34,10 +33,6 @@ header {
 .navbar a:hover {
   color: #9018d6;
 }
-
-
-
-
 
 h1 {
   display: flex;
@@ -70,4 +65,38 @@ main {
 }
 .estado > #verificar {
   width: 100px;
+}
+
+@media (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar li {
+    margin: 10px 0;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px;
+  }
+
+  main {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .grupo > img {
+    width: 80%;
+    max-width: 300px;
+  }
+
+  #cantidad,
+  .estado > #verificar {
+    width: 80%;
+    max-width: 200px;
+  }
 }

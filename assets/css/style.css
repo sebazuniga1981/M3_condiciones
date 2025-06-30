@@ -42,3 +42,8 @@ object-fit: cover;
   /*border: 2px solid #a9abb4;*/
   /*border-radius: 10px;*/
 }
+h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
